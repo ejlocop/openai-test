@@ -1,7 +1,7 @@
 const $form = document.querySelector('#form')
 const $promptKey = $form.querySelector('#prompt')
 const openAiURL = "https://api.openai.com/v1/completions"
-const openAIApiKey = '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'
+const openAIApiKey = 'REDACTED'
 const $output = $form.querySelector('#output')
 $form.addEventListener('submit', async (e) => {
 	e.preventDefault()
